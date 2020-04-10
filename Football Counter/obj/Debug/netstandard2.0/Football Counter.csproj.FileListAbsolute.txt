@@ -1,0 +1,13 @@
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\bin\Debug\netstandard2.0\Football Counter.deps.json
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\bin\Debug\netstandard2.0\Football Counter.dll
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\bin\Debug\netstandard2.0\ref\Football Counter.dll
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\bin\Debug\netstandard2.0\Football Counter.pdb
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\obj\Debug\netstandard2.0\Football Counter.csprojAssemblyReference.cache
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\obj\Debug\netstandard2.0\Football Counter.AssemblyInfoInputs.cache
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\obj\Debug\netstandard2.0\Football Counter.AssemblyInfo.cs
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\obj\Debug\netstandard2.0\Football Counter.dll
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\obj\Debug\netstandard2.0\ref\Football Counter.dll
+C:\Users\samlo\OneDrive\Desktop\XamarinTuts\SimpleAppTest\Football Counter\Football Counter\obj\Debug\netstandard2.0\Football Counter.pdb

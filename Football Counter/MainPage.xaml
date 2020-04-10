@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Football_Counter"
+             mc:Ignorable="d"
+             x:Class="Football_Counter.MainPage">
+    <!--How we link to the MainViewModel-->
+    <ContentPage.BindingContext>
+        <local:MainViewModel/> 
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <!--Add 4 rows-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".4*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--Add 2 columns-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!--Title-->
+        <Label Grid.Column="0" Grid.ColumnSpan="2" Text="Win Tracker"
+               BackgroundColor="OrangeRed" HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" TextColor="White" FontSize="Title"/>
+        
+        <!--Chiefs Logo-->
+        <Image Source="chiefsLogo" 
+               HorizontalOptions="Center"
+               Grid.Column="0" Grid.Row="1"/>
+        
+        <!--Ravens Logo-->
+        <Image Source="ravensLogo"
+               HorizontalOptions="Center"
+               Grid.Column="1" Grid.Row="1"/>
+        
+        <!--Chiefs Count-->
+        <Label Text="{Binding ChiefsCount}" FontSize="Header"
+               Grid.Column="0" Grid.Row="2" HorizontalOptions="Center"/>
+        
+        <!--Ravens Count-->
+        <Label Text="{Binding RavensCount}" FontSize="Header"
+               Grid.Column="1" Grid.Row="2" HorizontalOptions="Center"/>
+        
+        <!--Chiefs Button-->
+        <Button Text="+" BackgroundColor="Red"
+                Grid.Column="0" Grid.Row="3"
+                TextColor="White" FontSize="Header"
+                HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                Command="{Binding ChiefsIncreaseCommand}"/>
+        
+        <!--Ravens Button-->
+        <Button Text="+" BackgroundColor="#1a195f"
+                Grid.Column="1" Grid.Row="3"
+                TextColor="White" FontSize="Header"
+                HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                Command="{Binding RavensIncreaseCommand}"/>
+    </Grid>
+
+</ContentPage>
